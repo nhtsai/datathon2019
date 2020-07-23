@@ -1,2 +1,6 @@
-# datathon2019
-UCSD Datathon 2019
+# San Diego Traffic Collision Analysis
+Submitted to UCSD Datathon 2019
+
+Lyft Challenge Winner
+
+Click [here](/finalsubmission.pdf) for the project submission report.
