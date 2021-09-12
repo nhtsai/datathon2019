@@ -1,7 +1,8 @@
 ## San Diego Traffic Collision Analysis
 
 Project submitted to UCSD Datathon 2019 by Nathan Tsai, Bernard Wong, and Sally Poon.
-Winner of Overall Best Project Challenge by Lyft.
+
+Winner of "Overall Best Project" Challenge by Lyft.
 
 ### Introduction
 
