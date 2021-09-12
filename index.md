@@ -44,7 +44,7 @@ cars per day of the week to see if the day of the week was a deciding factor tow
 there traffic was present.
 
 <p align="center">
-  <img height="300" src="/datathon2019/images/avgcarsperweekday.png" title="Average Amount of Cars per Weekday.">
+  <img height="432" src="/datathon2019/images/avgcarsperweekday.png" title="Average Amount of Cars per Weekday.">
   <br>
   <em>Figure 1. Average Amount of Cars per Weekday.</em>
 </p>
@@ -61,7 +61,7 @@ total injuries and deaths of the dataset as a whole,
 to see the likelihood of getting injured or killed on that day.
 
 <p align="center">
-  <img height="300" src="/datathon2019/images/injuriesperweekday.png" title="Injuries and Deaths per Weekday.">
+  <img height="432" src="/datathon2019/images/injuriesperweekday.png" title="Injuries and Deaths per Weekday.">
   <br>
   <em>Figure 2. Injuries and Deaths per Weekday.</em>
 </p>
@@ -87,10 +87,31 @@ As a result, we decided to look into another factor that might affect injuries w
 Using an additional GeoDataFrame of beats and our collisions dataset, we were able to map different cities
 and the number of injuries and deaths that occurred in each region.
 
+<table align="center">
+  <thead>
+    <tr>
+      <th>
+        Injuries per Beat
+      </th>
+      <th>
+        Deaths per Beat
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img height="512" src="/datathon2019/images/injuriesperbeat.png" title="Injuries per Beat.">
+      </td>
+      <td>
+        <img height="512" src="/datathon2019/images/deathsperbeat.png" title="Deaths per Beat.">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <p align="center">
-  <img height="300" src="/datathon2019/images/injuriesperbeat.png" title="Injuries vs Deaths per Beat Region.">
-  <br>
-  <em>Figure 3. Injuries vs Deaths per Beat Region.</em>
+  <em>Figure 3. Injuries vs Deaths per Beat.</em>
 </p>
 
 Some interesting things instantly pop out. There are outliers for both maps, 
@@ -121,7 +142,7 @@ From the visualization generated through the choropleth graphs and other plots,
 we saw that there was an extremely high number of collisions in one particular beat: beat 122.
 
 <p align="center">
-  <img height="300" src="/datathon2019/images/collisionsperbeat.png" title="Collisions in each Police Beat.">
+  <img height="432" src="/datathon2019/images/collisionsperbeat.png" title="Collisions in each Police Beat.">
   <br>
   <em>Figure 4. Collisions in each Police Beat.</em>
 </p>
@@ -130,7 +151,7 @@ Looking at the 10 beats with the most collisions below, we see that
 Beat 122 has significantly more collisions than the 9 other beats.
 
 <p align="center">
-  <img height="300" src="/datathon2019/images/top10beats.png" title="Top 10 Beats with Most Collisions.">
+  <img height="432" src="/datathon2019/images/top10beats.png" title="Top 10 Beats with Most Collisions.">
   <br>
   <em>Figure 5. Top 10 Beats with Most Collisions.</em>
 </p>
@@ -166,7 +187,7 @@ Pacific Beach (Beat 122) was **significantly higher** than the average hurt of a
 random sample of collisions of the same size.
 
 <p align="center">
-  <img height="300" src="/datathon2019/images/avghurtsamples.png" title="Top 10 Beats with Most Collisions.">
+  <img height="432" src="/datathon2019/images/avghurtsamples.png" title="Top 10 Beats with Most Collisions.">
   <br>
   <em>Figure 6. Average Hurt from 50,000 Random Collision Samples.</em>
 </p>
