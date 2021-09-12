@@ -1,5 +1,8 @@
 ## San Diego Traffic Collision Analysis
 
+Project submitted to UCSD Datathon 2019 by Nathan Tsai, Bernard Wong, and Sally Poon.
+Winner of Overall Best Project Challenge by Lyft.
+
 ### Introduction
 
 Traffic is an incredibly large issue in California. According to a 2015 U.S. census<sup>[1]</sup>,
